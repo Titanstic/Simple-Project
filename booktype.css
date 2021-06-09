@@ -1,0 +1,12 @@
+body,
+table {
+    background-color: lightblue;
+}
+
+h1 {
+    color: rgba(245, 151, 11, 0.986);
+}
+
+img {
+    border-radius: 12px;
+}

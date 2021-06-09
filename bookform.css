@@ -1,0 +1,27 @@
+body {
+    font-family: helvetica;
+    background-color: lightblue;
+}
+
+h2,
+h1 {
+    color: rgba(245, 151, 11, 0.986);
+}
+
+.order {
+    width: 600px;
+    margin: 30px 400px 0 400px;
+    background: url("bookbackground3.jpg");
+    border: 1px solid rgba(245, 151, 11, 0.986);
+    border-radius: 12px;
+}
+
+.order p {
+    color: rgb(20, 20, 212);
+}
+
+input,
+textarea,
+button {
+    border-radius: 5px;
+}

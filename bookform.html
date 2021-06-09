@@ -2,74 +2,75 @@
 
 <head>
     <title>User Information</title>
+    <link rel="stylesheet" href="bookform.css">
 </head>
 
-<body bgcolor="cyan">
-    <form>
-        <fieldset>
-            <legend align="center">Oreder Information</legend>
-            <img src="bookBackground.jpg" alt="pagoda" height="100px" align="right">
-            <table align="center">
-                <tr>
-                    <td><b>Buy Date Time</b></td>
-                    <td><input type="text" value="2021/06/08 12:00 AM" disabled></td>
-                </tr>
-                <tr>
+<body>
+    <div class="heading">
+        <h1 align="center">Min Khant'Book Shop</h1>
+    </div>
+    <form class="order">
+        <h2 align="center">Oreder Information</h2>
+        <table align="center">
+            <tr>
+                <td><b>Buy Date Time</b></td>
+                <td><input type="text" value="2021/06/08 12:00 AM" disabled></td>
+            </tr>
+            <tr>
 
-                    <td>
-                        <p><label for="name"><b>Customer Name :</b> </label></p>
-                    </td>
-                    <td>
-                        <p><input type="text" id="name" placeholder="John David" autofocus required></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td><b>Age :</b></td>
-                    <td><input type="number" min="1" max="80"></td>
-                </tr>
-                <tr>
-                    <td><b>Gender :</b></td>
-                    <td>
-                        <select id="gender" name="gender">
+                <td>
+                    <label for="name"><b>Customer Name :</b> </label>
+                </td>
+                <td>
+                    <input type="text" id="name" placeholder="John David" autofocus required>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Age :</b></td>
+                <td><input type="number" min="1" max="80"></td>
+            </tr>
+            <tr>
+                <td><b>Gender :</b></td>
+                <td>
+                    <select id="gender" name="gender">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                                 <option value="other">Other</option>
                             </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><b>Card :</b></td>
-                    <td>
-                        <input type="radio" name="card" value="Pay Pal">Pay Pal
-                        <input type="radio" name="card" value="Union">Union
-                        <input type="radio" name="card" value="Master">Master
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="accName"><b>Bank Account :</b> </label></td>
-                    <td><input type="number" id="accNmae" placeholder="0000-0000-0000-0000" required></td>
-                </tr>
-                <tr>
-                    <td><label for="pwd"><b>Password :</b> </label></td>
-                    <td><input type="password" id="pwd" required></td>
-                </tr>
-                <tr>
-                    <td><b>Book Number :</b></td>
-                    <td><input type="number" min="1" max="10"></td>
-                </tr>
-                <tr>
-                    <td><b>Address :</td>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Card :</b></td>
+                <td>
+                    <input type="radio" name="card" value="Pay Pal">Pay Pal
+                    <input type="radio" name="card" value="Union">Union
+                    <input type="radio" name="card" value="Master">Master
+                </td>
+            </tr>
+            <tr>
+                <td><label for="accName"><b>Bank Account :</b> </label></td>
+                <td><input type="number" id="accNmae" placeholder="0000-0000-0000-0000" required></td>
+            </tr>
+            <tr>
+                <td><label for="pwd"><b>Password :</b> </label></td>
+                <td><input type="password" id="pwd" required></td>
+            </tr>
+            <tr>
+                <td><b>Book Quantity :</b></td>
+                <td><input type="number" min="1" max="10"></td>
+            </tr>
+            <tr>
+                <td><b>Address :</td>
                         <td></b><textarea></textarea></td>
-                </tr>
-                <tr>
-                    <th><input type="reset" value="Reset"></tj>
-                        <th><button><a href="response.html">Buy</a> </button></th>
-                </tr>
-                <tr>
-                    <th colspan="2"><button><a href="bookShop.html">Buy Later</a></button></th>
-                </tr>
-            </table>
-        </fieldset>
+            </tr>
+            <tr>
+                <th><input type="reset" value="Reset"></tj>
+                    <th><button><a href="response.html">Buy</a> </button></th>
+            </tr>
+            <tr>
+                <th colspan="2"><button><a href="booktype.html">Buy Later</a></button></th>
+            </tr>
+        </table>
     </form>
 </body>
 
